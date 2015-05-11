@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">app设置工具</string>
+
+    <string name="add_new_server">新增服务器</string>
+    <string name="server_name">服务器标示</string>
+    <string name="add_server">添加服务器</string>
+    <string name="sure_ok">确定</string>
+    <string name="server_name_error">请填写正确的服务器名称</string>
+    <string name="delete">删除</string>
+    <string name="modify">修改</string>
+    <string name="operation">操作</string>
+    <string name="biz_wallet_man">x1服务器</string>
+    <string name="biz_passport_man">x2服务器</string>
+    <string name="biz_plugin_man">插件升级服务器</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="scan_code">扫码</string>
+</resources>

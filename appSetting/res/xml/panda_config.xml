@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="xx1服务器" >
+        <ListPreference
+            android:key="biz_wallet"
+            android:title="选择wallet服务器" >
+        </ListPreference>
+
+        <PreferenceScreen
+            android:key="biz_wallet_man"
+            android:title="@string/biz_wallet_man" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="xx2服务器" >
+        <ListPreference
+            android:key="biz_passport"
+            android:title="选择x2服务器" >
+        </ListPreference>
+
+        <PreferenceScreen
+            android:key="biz_passport_man"
+            android:title="@string/biz_passport_man" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="插件升级设置" >
+        <ListPreference
+            android:key="biz_plugin"
+            android:title="选择插件升级服务器" >
+        </ListPreference>
+
+        <PreferenceScreen
+            android:key="biz_plugin_man"
+            android:title="@string/biz_plugin_man" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="配置环境" >
+        <ListPreference
+            android:key="biz_environment"
+            android:title="配置环境" >
+        </ListPreference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="环境设置" >
+        <CheckBoxPreference
+            android:key="biz_debug_flag"
+            android:title="是否使用debug环境" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="版本信息" >
+        <Preference
+            android:key="version"
+            android:title="版本" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
